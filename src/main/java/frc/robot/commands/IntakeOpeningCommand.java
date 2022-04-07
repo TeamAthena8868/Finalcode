@@ -31,6 +31,7 @@ public class IntakeOpeningCommand extends CommandBase {
   public void execute() {
     double intakeValue = (Math.abs(this.intakeSupplier.get()) > Constants.intakeSpeedDeadband) ? this.intakeSupplier.get() : 0;
     double intakeValue2 = (Math.abs(this.intakeSupplier2.get()) > Constants.intakeSpeedDeadband) ? this.intakeSupplier2.get() : 0;
+    
     this.intakeSubsystem.setIntakeOpeningSpeed(intakeValue);
     this.intakeSubsystem.setIntakeSpeed(intakeValue2);
   }

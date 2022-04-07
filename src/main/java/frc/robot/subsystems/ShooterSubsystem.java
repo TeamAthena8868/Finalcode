@@ -16,7 +16,7 @@ public class ShooterSubsystem extends SubsystemBase {
 
   /** Creates a new ShooterSubsystem. */
   public ShooterSubsystem() {
-    this.shooter = new CANSparkMax(8, MotorType.kBrushless);
+    this.shooter = new CANSparkMax(8, MotorType.kBrushed);
   }
 
   @Override

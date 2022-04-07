@@ -15,7 +15,7 @@ public class IndexingSubsystem extends SubsystemBase {
   private CANSparkMax indexing;
   /** Creates a new IndexingSubsystem. */
   public IndexingSubsystem() {
-    this.indexing = new CANSparkMax(4, MotorType.kBrushless);
+    this.indexing = new CANSparkMax(7, MotorType.kBrushless);
   }
 
   @Override

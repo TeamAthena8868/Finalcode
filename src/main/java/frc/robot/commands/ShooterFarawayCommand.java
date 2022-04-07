@@ -37,6 +37,6 @@ public class ShooterFarawayCommand extends CommandBase {
   // Returns true when the command should end.
   @Override
   public boolean isFinished() {
-    return !RobotContainer.joyDriving.getRawButton(Constants.shootingFarawayButton_JoyDriving_7);
+    return !RobotContainer.joyDriving.getRawButton(Constants.shootingFarawayButton_JoyDriving_1);
   }
 }
