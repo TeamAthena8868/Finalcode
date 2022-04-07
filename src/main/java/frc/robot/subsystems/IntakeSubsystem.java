@@ -51,7 +51,8 @@ public class IntakeSubsystem extends SubsystemBase {
   public void setIntakeOpeningSpeed(double speed) {
     this.intakeOpening.set(speed);
   }
-  public void setIntakSpeed(double speed) {
+
+  public void setIntakeSpeed(double speed) {
     this.intakeOpening.set(speed);
   }
 }

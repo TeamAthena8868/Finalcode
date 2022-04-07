@@ -74,15 +74,15 @@ public class RobotContainer {
         .toggleWhenActive(new IntakeCommand(this.intakeSubsystem));
 
     // Indexing Button Binding
-    new JoystickButton(RobotContainer.joyDriving, Constants.indexingButton_JoyDriving_5)
+    new JoystickButton(RobotContainer.joyDriving, Constants.indexingButton_JoyDriving_3)
         .toggleWhenActive(new IndexingCommand(this.indexingSubsystem));
 
     // Shooter Direct Speed Binding
-    new JoystickButton(RobotContainer.joyDriving, Constants.shootingButton_JoyDriving_6)
+    new JoystickButton(RobotContainer.joyDriving, Constants.shootingButton_JoyDriving_2)
         .whenActive(new ShooterDirectCommand(this.shooterSubsystem));
 
     // Shooter Faraway Speed Binding
-    new JoystickButton(RobotContainer.joyDriving, Constants.shootingFarawayButton_JoyDriving_7)
+    new JoystickButton(RobotContainer.joyDriving, Constants.shootingFarawayButton_JoyDriving_1)
         .whenActive(new ShooterFarawayCommand(this.shooterSubsystem));
   }
 
